@@ -4,7 +4,7 @@ name: 'GitHub Actions'
 concurrency: 'ci-${{ github.ref }}'
 env:
     APP_IMAGE: keboola-component
-    KBC_DEVELOPERPORTAL_VENDOR: 'Jakub Turner'
+    KBC_DEVELOPERPORTAL_VENDOR: 'jakubturner'
     KBC_DEVELOPERPORTAL_APP: jakubturner.ex-docs-tutorial
     KBC_DEVELOPERPORTAL_USERNAME: jakubturner+ex_docs_tutorial
     KBC_DEVELOPERPORTAL_PASSWORD: '${{ secrets.KBC_DEVELOPERPORTAL_PASSWORD }}'
